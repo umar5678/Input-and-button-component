@@ -1,0 +1,15 @@
+@import "defaultbtns";
+@import "disabledbtns";
+@import "grocerybtns";
+@import "btnsizes";
+@import "btncolorvariants";
+
+.btn-comp{
+    margin-top: 53px;
+    margin-left: 83px;
+    > h3 {
+        font: 500 24px $primery_font;
+        color: $gray5;
+        margin-bottom: 1rem;
+    }
+}

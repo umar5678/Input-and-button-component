@@ -1,0 +1,54 @@
+.grocery-btns{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 6rem;
+    .startIcon-norm{
+        display: flex;
+        flex-direction: column;
+        > code {
+           font: 400 12px $code_font;
+           color: $gray7;
+        }
+        > button {
+            height: 36px;
+            width: 105px;
+            border: none;
+            background-color: $blue1;
+            color: $white;
+            font-size: 14px;
+            margin-top: 16px;
+            border-radius: 6px;
+            transition: all .3s;
+            &:hover{
+                background-color: $dark_blue;
+            }
+        }
+    }
+
+    .endIcon-fh{
+        display: flex;
+        flex-direction: column;
+        > code {
+            font: 400 12px $code_font;
+           color: $gray4;
+        }
+        > button {
+            height: 36px;
+            width: 105px;
+            border: none;
+            background-color: $blue1;
+            color: $white;
+            font-size: 14px;
+            margin-top: 16px;
+            border-radius: 6px;
+            transition: all .3s;
+            &:hover{
+                background-color: $dark_blue;
+            }
+        }
+    }
+
+}
+
+

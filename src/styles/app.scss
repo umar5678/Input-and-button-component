@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu+Mono:wght@400;700&display=swap');
+
+@import "variables";
+@import "sidebar";
+@import "buttonsComp";
+@import "inputsComp";
+@import "footer";
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: $secondary_font;
+}
+
+
+.container{
+    display: flex;
+}
+.aside{
+    height: 100vh;
+    width: 17vw;
+}
+.main{
+    height: 100vh;
+    width: 100vw - 17vw;
+    
+}
+button{
+    cursor: pointer;
+}

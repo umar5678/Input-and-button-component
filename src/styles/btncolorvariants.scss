@@ -1,0 +1,206 @@
+.clrvariant{
+    margin: 3rem 0;
+    display: flex;
+    gap: 4.1rem;
+    .default-btns{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        .btn-norm{
+            display: flex;
+            flex-direction: column;
+            > code {
+               font: 400 12px $code_font;
+               color: $gray7;
+            }
+            > button {
+                height: 36px;
+                width: 81px;
+                border: none;
+                background-color: $gray1;
+                color: $gray6;
+                font-size: 14px;
+                margin-top: 16px;
+                border-radius: 6px;
+                transition: all .3s;
+                &:hover{
+                    background-color: $gray3;
+                }
+            }
+        }
+    
+        .btn-fh{
+            display: flex;
+            flex-direction: column;
+            > code {
+                font: 400 12px $code_font;
+               color: $gray4;
+               
+            }
+            > button {
+                height: 36px;
+                width: 81px;
+                border: none;
+                background-color: $gray3;
+                color: $gray6;
+                font-size: 14px;
+                margin-top: 16px;
+                border-radius: 6px;
+            }
+        }
+    
+    }
+
+    .primery-btns{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        .btn-norm{
+            display: flex;
+            flex-direction: column;
+            > code {
+               font: 400 12px $code_font;
+               color: $gray7;
+            }
+            > button {
+                height: 36px;
+                width: 81px;
+                border: none;
+                background-color: $blue1;
+                color: $white;
+                font-size: 14px;
+                margin-top: 16px;
+                border-radius: 6px;
+                transition: all .3s;
+                &:hover{
+                    background-color: $dark_blue;
+                }
+            }
+        }
+    
+        .btn-fh{
+            display: flex;
+            flex-direction: column;
+            > code {
+                font: 400 12px $code_font;
+               color: $gray4;
+               visibility: hidden;
+            }
+            > button {
+                height: 36px;
+                width: 81px;
+                border: none;
+                background-color: $dark_blue;
+                color: $white;
+                font-size: 14px;
+                margin-top: 16px;
+                border-radius: 6px;
+            }
+        }
+    
+    }
+
+    .secondary-btns{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        .btn-norm{
+            display: flex;
+            flex-direction: column;
+            > code {
+               font: 400 12px $code_font;
+               color: $gray7;
+            }
+            > button {
+                height: 36px;
+                width: 104px;
+                border: none;
+                background-color: $ocean;
+                color: $white;
+                font-size: 14px;
+                margin-top: 16px;
+                border-radius: 6px;
+                transition: all .3s;
+                &:hover{
+                    background-color: $dark_ocean;
+                }
+            }
+        }
+    
+        .btn-fh{
+            display: flex;
+            flex-direction: column;
+            > code {
+                font: 400 12px $code_font;
+               color: $gray4;
+               visibility: hidden;
+            }
+            > button {
+                height: 36px;
+                width: 104px;
+                border: none;
+                background-color: $dark_ocean;
+                color: $white;
+                font-size: 14px;
+                margin-top: 16px;
+                border-radius: 6px;
+            }
+        }
+    
+
+    }
+
+    .danger-btns{
+
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        .btn-norm{
+            display: flex;
+            flex-direction: column;
+            > code {
+               font: 400 12px $code_font;
+               color: $gray7;
+               
+            }
+            > button {
+                height: 36px;
+                width: 81px;
+                border: none;
+                background-color: $red;
+                color: $white;
+                font-size: 14px;
+                margin-top: 16px;
+                border-radius: 6px;
+                transition: all .3s;
+                &:hover{
+                    background-color: $dark_red;
+                }
+            }
+        }
+    
+        .btn-fh{
+            display: flex;
+            flex-direction: column;
+            > code {
+                font: 400 12px $code_font;
+               color: $gray4;
+            visibility: hidden;
+            }
+            > button {
+                height: 36px;
+                width: 81px;
+                border: none;
+                background-color: $dark_red;
+                color: $white;
+                font-size: 14px;
+                margin-top: 16px;
+                border-radius: 6px;
+            }
+        }
+    
+
+    }
+
+    
+}

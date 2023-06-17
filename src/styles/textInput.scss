@@ -1,0 +1,90 @@
+.text-input{
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem ;
+
+    margin: 1rem 0;
+
+    .normal{
+        display: flex;
+        flex-direction: column;
+    
+        code{
+            font: 400 12px $code_font;
+            color: $gray7;
+            padding: 0.5rem 0;
+        }
+    
+        textarea{
+            max-width: 200px;
+            height: 56px;
+            outline: none;
+            border: 1px solid $gray3;
+            border-radius: 8px;
+            padding: 1rem;
+        }
+    
+        label{
+            color: $gray7;
+            font-weight: 400;
+            font-size: 12px;
+            margin: 0.5rem 0;
+        }
+
+        
+    }
+    .wide{
+        display: flex;
+        flex-direction: column;
+    
+        code{
+            font: 400 12px $code_font;
+            color: $gray7;
+            padding: 0.5rem 0;
+        }
+    
+        textarea{
+            max-width: 60rem;
+            height: 56px;
+            outline: none;
+            border: 1px solid $gray3;
+            border-radius: 8px;
+            padding: 1rem;
+        }
+    
+        label{
+            color: $gray7;
+            font-weight: 400;
+            font-size: 12px;
+            margin: 0.5rem 0;
+        }
+    }
+
+    .extended{
+        display: flex;
+        flex-direction: column;
+    
+        code{
+            font: 400 12px $code_font;
+            color: $gray7;
+            padding: 0.5rem 0;
+        }
+    
+        textarea{
+            max-width: 20rem;
+            height: 14rem;
+            outline: none;
+            border: 1px solid $gray3;
+            border-radius: 8px;
+            padding: 1rem;
+        }
+    
+        label{
+            color: $gray7;
+            font-weight: 400;
+            font-size: 12px;
+            margin: 0.5rem 0;
+        }
+    }
+}

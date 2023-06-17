@@ -1,0 +1,102 @@
+.simple-input{
+
+    display: flex;
+    gap: 3rem ;
+
+    .normal{
+        display: flex;
+        flex-direction: column;
+    
+        code{
+            font: 400 12px $code_font;
+            color: $gray7;
+            padding: 0.5rem 0;
+        }
+    
+        input{
+            max-width: 200px;
+            height: 56px;
+            outline: none;
+            border: 1px solid $gray3;
+            border-radius: 8px;
+            padding: 1rem;
+        }
+    
+        label{
+            color: $gray7;
+            font-weight: 400;
+            font-size: 12px;
+            margin: 0.5rem 0;
+        }
+    
+        &:hover {
+            input{
+                border: 1px solid $gray7;
+            }
+    
+        }
+    
+        &:focus {
+            input{
+                border: 1px solid $blue1;
+            }
+            label{
+                color: $blue1;
+            }
+        }
+    }
+    
+    .hover{
+        display: flex;
+        flex-direction: column;
+    
+        code{
+            font: 400 12px $code_font;
+            color: $gray4;
+            padding: 0.5rem 0;
+        }
+    
+        input{
+            max-width: 200px;
+            height: 56px;
+            outline: none;
+            border: 1px solid $gray7;
+            border-radius: 8px;
+            padding: 1rem;
+        }
+    
+        label{
+            color: $gray7;
+            font-weight: 400;
+            font-size: 12px;
+            margin: 0.5rem 0;
+        }
+    }
+
+    .focus{
+        display: flex;
+        flex-direction: column;
+    
+        code{
+            font: 400 12px $code_font;
+            color: $gray4;
+            padding: 0.5rem 0;
+        }
+    
+        input{
+            max-width: 200px;
+            height: 56px;
+            outline: none;
+            border: 1px solid $blue2;
+            border-radius: 8px;
+            padding: 1rem;
+        }
+    
+        label{
+            color: $blue2;
+            font-weight: 400;
+            font-size: 12px;
+            margin: 0.5rem 0;
+        }
+    }
+}

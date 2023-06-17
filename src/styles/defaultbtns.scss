@@ -1,0 +1,146 @@
+.simple-btns{
+    display: flex;
+    gap: 10rem;
+    .btn-norm{
+        display: flex;
+        flex-direction: column;
+        > code {
+           font: 400 12px $code_font;
+           color: $gray7;
+        }
+        > button {
+            height: 36px;
+            width: 81px;
+            border: none;
+            background-color: $gray1;
+            color: $gray6;
+            font-size: 14px;
+            margin-top: 16px;
+            border-radius: 6px;
+            transition: all .3s;
+            &:hover{
+                background-color: $gray3;
+            }
+        }
+    }
+
+    .btn-fh{
+        display: flex;
+        flex-direction: column;
+        > code {
+            font: 400 12px $code_font;
+           color: $gray4;
+        }
+        > button {
+            height: 36px;
+            width: 81px;
+            border: none;
+            background-color: $gray3;
+            color: $gray6;
+            font-size: 14px;
+            margin-top: 16px;
+            border-radius: 6px;
+        }
+    }
+
+}
+
+.outline-btns{
+    margin-top: 3rem;
+    display: flex;
+    gap: 4.8rem;
+    .outline-norm{
+        display: flex;
+        flex-direction: column;
+        > code {
+           font: 400 12px $code_font;
+           color: $gray7;
+        }
+        > button {
+            height: 36px;
+            width: 81px;
+            border: 1px solid $blue2;
+            background-color: $white;
+            color: $blue2;
+            font-size: 14px;
+            margin-top: 16px;
+            border-radius: 6px;
+            transition: all .3s;
+            &:hover{
+                background-color: $lightest_blue;
+            }
+        }
+    }
+
+    .outline-fh{
+        display: flex;
+        flex-direction: column;
+        > code {
+            font: 400 12px $code_font;
+           color: $gray4;
+        }
+        > button {
+            height: 36px;
+            width: 81px;
+            border: 1px solid $blue2;
+            background-color: $lightest_blue;
+            color: $blue2;
+            font-size: 14px;
+            margin-top: 16px;
+            border-radius: 6px;
+            transition: all .3s;
+        }
+    }
+
+}
+
+.text-btns{
+    margin-top: 3rem;
+    display: flex;
+    gap: 6rem;
+    .text-norm{
+        display: flex;
+        flex-direction: column;
+        > code {
+           font: 400 12px $code_font;
+           color: $gray7;
+        }
+        > button {
+            height: 36px;
+            width: 81px;
+            border: none;
+            background-color: $white;
+            color: $blue2;
+            font-size: 14px;
+            margin-top: 16px;
+            border-radius: 6px;
+            transition: all .3s;
+            &:hover{
+                background-color: $lightest_blue;
+            }
+        }
+    }
+
+    .text-fh{
+        display: flex;
+        flex-direction: column;
+        > code {
+            font: 400 12px $code_font;
+           color: $gray4;
+        }
+        > button {
+            height: 36px;
+            width: 81px;
+            border: none;
+            background-color: $lightest_blue;
+            color: $blue2;
+            font-size: 14px;
+            margin-top: 16px;
+            border-radius: 6px;
+            transition: all .3s;
+        }
+    }
+
+}
+
+

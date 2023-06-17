@@ -1,0 +1,38 @@
+#side-bar {
+  background-color: $lightest_gray;
+  height: 100vh;
+  padding: 3.6rem;
+  position: fixed;
+  h3 {
+    margin-top: 0.5rem;
+    font: 600 14px $primery_font;
+    color: $darkest_blue;
+    span {
+      color: $orange_clr;
+    }
+  }
+  nav {
+    margin-top: 7.6rem;
+
+    ul { 
+      li {
+        list-style: none;
+        margin: 1.7rem 0;
+         .active{
+            color: $gray7 !important;
+          }
+        .nav-links {
+          color: $gray2;
+          font-weight: 500;
+          font-size: 14px;
+          transition: all 0.3s;
+
+          &:hover {
+            color: $darkest_blue;
+          }
+          
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@import "simpleInput";
+@import "errorInput";
+@import "disabledInput";
+@import "helpertextInput";
+@import "inputWithIcon";
+@import "inputSizeVar";
+@import "textInput";
+
+
+
+.input-comp{
+    margin-top: 53px;
+    margin-left: 83px;
+
+    > h3{
+       font: 500 24px $primery_font;
+       color: $gray5;
+       margin: 1rem 0;
+    }
+}

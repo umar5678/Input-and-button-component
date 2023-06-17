@@ -1,0 +1,77 @@
+.btnsizes{
+    margin: 3rem 0 1rem 0;
+
+    display: flex;
+    gap: 6rem;
+    .sm{
+        display: flex;
+        flex-direction: column;
+        > code {
+           font: 400 12px $code_font;
+           color: $gray7;
+        }
+        > button {
+            height: 32px;
+            width: 73px;
+            border: none;
+            background-color: $blue1;
+            color: $white;
+            font-size: 14px;
+            margin-top: 16px;
+            border-radius: 6px;
+            transition: all .3s;
+            &:hover{
+                background-color: $dark_blue;
+            }
+        }
+    }
+
+    .md{
+        display: flex;
+        flex-direction: column;
+        > code {
+            font: 400 12px $code_font;
+            color: $gray7;
+        }
+        > button {
+            height: 36px;
+            width: 81px;
+            border: none;
+            background-color: $blue1;
+            color: $white;
+            font-size: 14px;
+            margin-top: 16px;
+            border-radius: 6px;
+            transition: all .3s;
+            &:hover{
+                background-color: $dark_blue;
+            }
+        }
+    }
+
+    .lg{
+        display: flex;
+        flex-direction: column;
+        > code {
+            font: 400 12px $code_font;
+            color: $gray7;
+        }
+        > button {
+            height: 42px;
+            width: 93px;
+            border: none;
+            background-color: $blue1;
+            color: $white;
+            font-size: 14px;
+            margin-top: 16px;
+            border-radius: 6px;
+            transition: all .3s;
+            &:hover{
+                background-color: $dark_blue;
+            }
+        }
+    }
+
+}
+
+
